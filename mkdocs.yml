@@ -1,0 +1,44 @@
+site_name: 堇色十字花别传
+site_url: https://supplementarybiographyofvioletcrucifer.com/
+nav:
+    - 前言: index.md
+    - 第一卷：有教无类:
+        - 第一部分：中级魔法学校:
+            - 1-0 露西妮.斯托克: part1/0100.md
+            - 1-1 神奇的魔法界: part1/0101.md
+            - 1-2 不合群: part1/0102.md
+            - 1-3 召唤师: part1/0103.md
+            - 1-4 水和冰: part1/0104.md
+            - 1-5 步步有依据: part1/0105.md
+            - 1-6 写作脑子读作考试: part1/0106.md
+            - 1-7 光系欢迎你: part1/0107.md
+            - 1-8 你不学习我和你没有共同语言: part1/0108.md
+            - 1-9 咸鱼切片: part1/0109.md
+            - 1-10 上升塔: part1/0110.md
+        - 第二部分：实战组:
+              - 2-0 莫妮卡.范: part2/0200.md
+
+    #    - 第二卷：深扃固钥: two.md
+#    - 第三卷：旷世异人: three.md
+#    - 第四卷：现实之事:
+#        - 第十三部分：较量:
+#            - 13-0 本质: 1300.md
+#            - 13-1 重逢: 1301.md
+    - 关于: about.md
+
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+    analytics:
+        gtag: G-ABC123
+    include_homepage_in_sidebar: True  # 在侧边栏菜单中列出主页。
+    prev_next_buttons_location: both # 设置 “Next” 和 “Previous” 按钮的位置：bottom, top, both , or none
+    navigation_depth: 4 # 侧边栏导航标题最大层级，默认4
+    collapse_navigation: True # 只在当前页面的侧边栏中包含页面标题。
+    titles_only: False # 只在侧边栏中包括文章标题，不包括所有子标题。默认值:False。
+    sticky_navigation: True #侧边栏在滚动页面时随主页内容滚动
+    locale: zh_CN # 语言配置，需要安装mkdocs[i18n]：pip install mkdocs[i18n]
